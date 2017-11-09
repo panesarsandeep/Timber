@@ -156,5 +156,6 @@
     <string name="lastfm_loged_in">Logged in as %s</string>
 
     <string name="cancel">Cancel</string>
+    <string name="jump_to_time">Jump to time</string>
 
 </resources>

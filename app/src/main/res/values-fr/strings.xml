@@ -107,5 +107,13 @@
     <string name="number_songs_add_queue"><xliff:g example="1" id="number">%d</xliff:g> chansons ajoutées à la file de lecture.</string>
     <string name="number_song_add_playlist"><xliff:g example="1" id="number">%d</xliff:g> chanson ajoutée à la liste de lecture.</string>
     <string name="number_songs_add_playlist"><xliff:g example="1" id="number">%d</xliff:g> chansons ajoutées à la liste de lecture.</string>
-    
+    <string name="add_to_playlist">Ajouter à la playlist</string>
+    <string name="add_to_queue">Ajouter à la liste</string>
+    <string name="advanced">Avancée</string>
+    <string name="albumart_lockscreen">Écran verrouillé</string>
+    <string name="albumart_lockscreen_summary">Afficher les pochettes d\'album dans l\'écran de verrouillage</string>
+    <string name="app_name">Timber</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete_from_device">Supprimer de l\'appareil</string>
+
 </resources>

@@ -148,5 +148,8 @@
     <string name="lastfm_loged_in">已登录为 %s</string>
 
     <string name="cancel">取消</string>
+    <string name="delete_from_device">从设备中删除</string>
+    <string name="jump_to_time">跳转到时间</string>
+    <string name="share">分享</string>
 
 </resources>
