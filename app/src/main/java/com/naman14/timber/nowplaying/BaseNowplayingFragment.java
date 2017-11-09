@@ -37,6 +37,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.afollestad.appthemeengine.ATE;
 import com.afollestad.appthemeengine.Config;
@@ -46,6 +47,7 @@ import com.naman14.timber.activities.BaseActivity;
 import com.naman14.timber.adapters.BaseQueueAdapter;
 import com.naman14.timber.adapters.SlidingQueueAdapter;
 import com.naman14.timber.dataloaders.QueueLoader;
+import com.naman14.timber.dialogs.JumpToTimeDialog;
 import com.naman14.timber.listeners.MusicStateListener;
 import com.naman14.timber.timely.TimelyView;
 import com.naman14.timber.utils.Helpers;
@@ -244,6 +246,9 @@ public class BaseNowplayingFragment extends Fragment implements MusicStateListen
                 break;
             case R.id.menu_go_to_artist:
                 NavigationUtils.goToArtist(getContext(), MusicPlayer.getCurrentArtistId());
+                break;
+            case R.id.menu_jump_to_time:
+                JumpToTimeDialog.newInstance().show(getChildFragmentManager(),"JUMP_TO_TIME");
                 break;
         }
         return super.onOptionsItemSelected(item);
