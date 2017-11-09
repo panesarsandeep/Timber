@@ -115,5 +115,17 @@
     <string name="app_name">Timber</string>
     <string name="cancel">Annuler</string>
     <string name="delete_from_device">Supprimer de l\'appareil</string>
+    <string name="load_artist_image">Charger des images d\'artiste</string>
+    <string name="load_artist_image_summary">Charger des images d\'artiste depuis lastfm</string>
+    <string name="load_artist_image_mobile">Charger des images d\'artiste sur des données mobiles</string>
+    <string name="load_artist_image_mobile_summary">Charger des images d\'artiste même s\'il n\'y a pas de wifi</string>
+    <string name="lastfm_pref">Connectez-vous à LastFM pour scrobbler</string>
+    <string name="lastfm_login_failture">Échec de la connexion</string>
+    <string name="lastfm_login">Connectez-vous à LastFM</string>
+    <string name="lastfm_loged_in">Connecté en tant que %s</string>
+    <string name="summary_xposed_trackselector">Requiert Xposed et XMediaNotificationTrackSelector Xposed module à installer. Cela donnera accès à la file d\'attente de lecture à partir de la barre de notification elle-même.</string>
+    <string name="xposed_trackselector">Lecture du support de file d\'attente dans la notification</string>
+    <string name="gestures">Gestes</string>
+    <string name="switching_tracks_by_gestures">Changer de piste en utilisant des gestes</string>
 
 </resources>
